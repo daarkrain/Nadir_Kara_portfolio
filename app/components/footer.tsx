@@ -39,7 +39,7 @@ export default function Footer() {
         </li>
       </ul>
       <p className="mt-8 text-neutral-300">
-        Website Developed by Vinícius Mattei - © {new Date().getFullYear()} MIT Licensed
+        Website Developed by Nadir Kara - © {new Date().getFullYear()} MIT Licensed
       </p>
     </footer>
   )
