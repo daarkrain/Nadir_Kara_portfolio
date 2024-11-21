@@ -116,6 +116,7 @@ export default function Page() {
         <h1 className="text-balance">Etudes</h1>
         <div className="flex md:flex-row flex-col justify-between gap-8">
           <div className="flex flex-col gap-2">
+            
             <div>
               <h4 className="text-neutral-300">
                 Université Côte d'Azur Campus Georges Méliès {" "}
@@ -188,10 +189,11 @@ export default function Page() {
           </div>
         </div>
       </div>
-
-      {/* ---------------------------- GAME ENGINES ---------------------------- */}
+  </div>
+</div>
+      {/* ---------------------------- MOTEURS DE JEU ---------------------------- */}
       <div className="w-[100%]">
-        <h1 className="text-balance">Game Engines</h1>
+        <h1 className="text-balance">Moteurs de jeu</h1>
         <div className="md:mt-32 mt-24 flex flex-row flex-wrap justify-between sm:gap-16">
           <a
             className="italic underline text-pink-300"
@@ -266,9 +268,9 @@ export default function Page() {
         </div>
       </div>
 
-      {/* ---------------------------- PROGRAMMING ---------------------------- */}
+      {/* ---------------------------- PROGRAMMATION ---------------------------- */}
       <div className="w-[100%]">
-        <h1 className="text-balance">Languages - Programming</h1>
+        <h1 className="text-balance">Langages-programmation</h1>
         <div className="md:mt-32 mt-24 flex flex-row justify-between flex-wrap gap-16">
           <img
             className="max-w-[70px] max-h-[70px] md:max-w-[80px] md:max-h-[80px] lg:max-w-[90px] lg:max-h-[90px]"
@@ -325,15 +327,15 @@ export default function Page() {
               className="max-h-[35px] max-w-[35px] md:max-h-[40px] md:max-w-[40px] lg:max-h-[45px] lg:max-w-[45px]"
               src="https://github.com/vpmattei/vinicius_mattei_portfolio/blob/portfolio-redesign/assets/flag-icons/brazil.png?raw=true"
             />
-            <h4 className="text-neutral-300">Portuguese (Brazil)</h4>
-            <h4 className="italic text-gray-400">Native language</h4>
+            <h4 className="text-neutral-300"> Kabyle (Tifinagh) (Algerie)</h4>
+            <h4 className="italic text-gray-400">Langage Natale</h4>
           </div>
           <div className="flex flex-row items-end gap-4 w-[20rem]">
             <img
               className="max-h-[35px] max-w-[35px] md:max-h-[40px] md:max-w-[40px] lg:max-h-[45px] lg:max-w-[45px]"
               src="https://github.com/vpmattei/vinicius_mattei_portfolio/blob/portfolio-redesign/assets/flag-icons/france.png?raw=true"
             />
-            <h4 className="text-neutral-300">French</h4>
+            <h4 className="text-neutral-300">Français</h4>
             <h4 className="italic text-gray-400">Fluent</h4>
           </div>
           <div className="flex flex-row items-end gap-4 w-[20rem]">
@@ -349,8 +351,8 @@ export default function Page() {
               className="max-h-[35px] max-w-[35px] md:max-h-[40px] md:max-w-[40px] lg:max-h-[45px] lg:max-w-[45px]"
               src="https://github.com/vpmattei/vinicius_mattei_portfolio/blob/portfolio-redesign/assets/flag-icons/spain.png?raw=true"
             />
-            <h4 className="text-neutral-300">Spanish</h4>
-            <h4 className="italic text-gray-400">Conversational level</h4>
+            <h4 className="text-neutral-300">Arabe</h4>
+            <h4 className="italic text-gray-400">Fluent</h4>
           </div>
         </div>
       </div>

@@ -13,10 +13,10 @@ export default function Page() {
       <div className="mt-48 mb-32 flex flex-col items-center gap-8">
         <div className="mb-8 text-center fade-in-element opacity-0">
           <p className="title poppins bold text-7xl sm:text-8xl md:text-9xl lg:text-[190px]">
-            Bonjour ! Je me presente!
+            Bienvenue!
           </p>
           <p className="title font-fraunces-thin-i text-7xl sm:text-8xl md:text-9xl lg:text-[190px]">
-            Nadir
+            Nadir Kara
           </p>
         </div>
         <p className="title font-fraunces-thin-i text-5xl md:text-7xl lg:text-8xl text-center fade-in-element opacity-0">
@@ -26,22 +26,23 @@ export default function Page() {
           developpeur
         </p>
         <p className="title font-fraunces-thin-i text-5xl md:text-7xl lg:text-8xl text-center fade-in-element opacity-0">
+          Game developpeur
+        </p>
+        <p className="title font-fraunces-thin-i text-5xl md:text-7xl lg:text-8xl text-center fade-in-element opacity-0">
           Graphiste 2D/3D
         </p>
         <p className="max-w-[50rem] min-w-[18rem] mx-8 md:text-xl fade-in-element opacity-0">
-          I help bring people's visions to fruition by combining my{" "}
-          <b>technical skills</b> with my <b>artistic perspective</b>. This
-          allows me to create <b>unique</b>, <b>creative</b>, and technically{" "}
-          <b>robust</b> video games.
+          Tres Ambitieux et reve de realiser de {" "}
+          <b>grandes choses</b> avec mes <b>capacités</b> et <b>compétences</b> <b>creatives</b>, grand fan d'animation, design, programmation et jeux vidéos.
         </p>
-        <Link href={"/works"}>
+        <Link href={"/Mes travaux"}>
           {/* <CustomButton
-            buttonText="SEE MY WORK"
+            buttonText="Voir mes travaux"
             bgColor="white" // Default background color of the screen
             hoverBgColor="#171415" // Background color when hovering
           /> */}
           <button className="green-style cursor-pointer mt-8 bg-transparent text-neutral-200 hover:text-[#171415] transition-all duration-300 rounded-full px-10 py-5 text-xl">
-            SEE MY WORK
+          Voir mes travaux
           </button>
         </Link>
       </div>
@@ -55,47 +56,21 @@ export default function Page() {
             maxWidth="40rem"
           />
           <Link href={"/works/hebald-forest"}>
-            <h2>3D Open World Adventure Game</h2>
+            <h2>jeu d'aventure en 3D</h2>
             <p>Hebald Forest – Unreal Engine 5</p>
           </Link>
         </div>
 
         <div className="self-end">
           <CustomImage
-            src="https://ludhic.fr/wp-content/uploads/2023/01/anamnesis02.webp"
-            alt="Anamnesis"
-            link="/works/anamnesis"
+            src="https://ludhic.fr/noras-mansion/"
+            alt="Nora's Mansion"
+            link="/works/Norasmansion"
             maxWidth="40rem"
           />
-          <Link href={"/works/anamnesis"}>
-            <h2>VR Narrative Game Experience</h2>
-            <p>Anamnesis - Unity</p>
-          </Link>
-        </div>
-
-        <div className="self-start">
-          <CustomImage
-            src="https://i.pinimg.com/564x/77/e2/c2/77e2c23bd4a54c852e15c146079e4b7c.jpg"
-            alt="Tangled Tales"
-            link="/works/tangled-tales"
-            maxWidth="40rem"
-          />
-          <Link href={"/works/tangled-tales"}>
-            <h2>2D Platformer Game</h2>
-            <p>Tangled Tales – Unity</p>
-          </Link>
-        </div>
-
-        <div className="self-end">
-          <CustomImage
-            src="https://i.ibb.co/GPvMSqy/Captura-de-Tela-2024-09-13-s-12-00-21.png"
-            alt="Kentyou"
-            link="/works/kentyou"
-            maxWidth="40rem"
-          />
-          <Link href={"/works/kentyou"}>
-            <h2>Data Analytics Dashboard Redesign</h2>
-            <p>A data driven dashboard redesign of Kentyou's main page website</p>
+          <Link href={"/works/norasmansion"}>
+            <h2>Jeu d'horreur en 3D</h2>
+            <p>Nora's Mansion-Unreal Engine 4</p>
           </Link>
         </div>
       </div>

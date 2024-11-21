@@ -4,7 +4,7 @@ import ArrowIcon from "app/components/ArrowIcon";
 
 export const metadata = {
   title: "Artworks",
-  description: "Drawings.",
+  description: "Dessins.",
 };
 
 const images = [
