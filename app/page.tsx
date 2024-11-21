@@ -13,20 +13,20 @@ export default function Page() {
       <div className="mt-48 mb-32 flex flex-col items-center gap-8">
         <div className="mb-8 text-center fade-in-element opacity-0">
           <p className="title poppins bold text-7xl sm:text-8xl md:text-9xl lg:text-[190px]">
-            HEY, I'M
+            Bonjour ! Je me presente!
           </p>
           <p className="title font-fraunces-thin-i text-7xl sm:text-8xl md:text-9xl lg:text-[190px]">
-            VINÍCIUS
+            Nadir
           </p>
         </div>
         <p className="title font-fraunces-thin-i text-5xl md:text-7xl lg:text-8xl text-center fade-in-element opacity-0">
-          GAME DESIGNER
+          UI/UX
         </p>
         <p className="title font-fraunces-thin-i text-5xl md:text-7xl lg:text-8xl text-center fade-in-element opacity-0">
-          GAME DEVELOPER
+          developpeur
         </p>
         <p className="title font-fraunces-thin-i text-5xl md:text-7xl lg:text-8xl text-center fade-in-element opacity-0">
-          VISUAL ARTIST
+          Graphiste 2D/3D
         </p>
         <p className="max-w-[50rem] min-w-[18rem] mx-8 md:text-xl fade-in-element opacity-0">
           I help bring people's visions to fruition by combining my{" "}

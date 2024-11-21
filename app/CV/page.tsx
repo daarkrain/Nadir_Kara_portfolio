@@ -12,7 +12,7 @@ export default function Page() {
               </h4>
               <div className="h-[1px] w-[100%] bg-neutral-500"></div>
               <br />
-              <h5 className="text-neutral-400">Developer</h5>
+              <h5 className="text-neutral-400">Developpeur</h5>
               <h5 className="text-neutral-400 italic">05.24 - present</h5>
             </div>
 
@@ -55,19 +55,19 @@ export default function Page() {
             </a>
           </div>
 
-          {/* ---------------------------- KENTYOU ---------------------------- */}
+          {/* ---------------------------- Application d'affectation d'etudiants vers fillières ---------------------------- */}
           <div className="w-[10rem] lg:w-[15rem] h-[20rem] flex flex-col justify-between">
             <div>
               <h3 className="text-neutral-300">
-                Kentyou{" "}
-                <i className="text-lg text-neutral-400">(Grenoble, FR)</i>
+              Application d'affectation d'etudiants vers fillières{" "}
+                <i className="text-lg text-neutral-400">(Bejaia, DZ)</i>
               </h3>
               <div className="h-[1px] w-[100%] bg-neutral-500"></div>
               <br />
               <h5 className="text-neutral-400">
-                UI/UX Web Designer / Developer
+                Java Developper
               </h5>
-              <h5 className="text-neutral-400 italic">06.22 - 09.22</h5>
+              <h5 className="text-neutral-400 italic">09.20 - 06.21</h5>
             </div>
 
             <a
@@ -83,17 +83,17 @@ export default function Page() {
             </a>
           </div>
 
-          {/* ---------------------------- HOLOLAB ---------------------------- */}
+          {/* ---------------------------- Royal Auction ---------------------------- */}
           <div className="w-[10rem] lg:w-[15rem] h-[20rem] flex flex-col justify-between">
             <div>
               <h3 className="text-neutral-300">
-                HoloLab{" "}
-                <i className="text-lg text-neutral-400">(Florianópolis, BR)</i>
+              Royal Auction{" "}
+                <i className="text-lg text-neutral-400">(Bejaia, DZ)</i>
               </h3>
               <div className="h-[1px] w-[100%] bg-neutral-500"></div>
               <br />
-              <h5 className="text-neutral-400">Game Designer</h5>
-              <h5 className="text-neutral-400 italic">08.19 - 09.19</h5>
+              <h5 className="text-neutral-400">Web Developper/Designer </h5>
+              <h5 className="text-neutral-400 italic">09-.21 - 06.22</h5>
             </div>
 
             <a
@@ -111,24 +111,42 @@ export default function Page() {
         </div>
       </div>
 
-      {/* ---------------------------- SCHOOLING ---------------------------- */}
+      {/* ---------------------------- Etudes ---------------------------- */}
       <div className="w-[100%]">
-        <h1 className="text-balance">Schooling</h1>
+        <h1 className="text-balance">Etudes</h1>
         <div className="flex md:flex-row flex-col justify-between gap-8">
           <div className="flex flex-col gap-2">
             <div>
               <h4 className="text-neutral-300">
-                Université Côte d'Azur{" "}
+                Université Côte d'Azur Campus Georges Méliès {" "}
                 <i className="text-lg text-neutral-400">(Cannes, FR)</i>
               </h4>
               <div className="h-[1px] w-[100%] bg-neutral-500"></div>
               <br />
               <h5 className="text-neutral-400">
-                Management of Video Games, Image and Creativity (MAJIC)
+                Management de Projets Innovaton, Créativité (MAPIC)
               </h5>
-              <h5 className="text-neutral-400">Master's Degree</h5>
+              <h5 className="text-neutral-400">Diplome en Master</h5>
+              <h5 className="text-neutral-400 italic">09.24- 06.25</h5>
+            </div>
+
+        <div className="flex md:flex-row flex-col justify-between gap-8">
+          <div className="flex flex-col gap-2">
+            <div>
+              <h4 className="text-neutral-300">
+                Université Côte d'Azur Campus Georges Méliès {" "}
+                <i className="text-lg text-neutral-400">(Cannes, FR)</i>
+              </h4>
+              <div className="h-[1px] w-[100%] bg-neutral-500"></div>
+              <br />
+              <h5 className="text-neutral-400">
+                Management Jeu vidéo imagerie et créativité (MAJIC)
+              </h5>
+              <h5 className="text-neutral-400">Diplome en Master</h5>
               <h5 className="text-neutral-400 italic">09.22 - 09.24</h5>
             </div>
+            
+            
             <a
               className="italic underline text-pink-300"
               target="_blank"
@@ -145,26 +163,26 @@ export default function Page() {
           <div className="flex flex-col gap-2">
             <div>
               <h4 className="text-neutral-300">
-                Université Grenoble Alpes
-                <i className="text-lg text-neutral-400"> (Grenoble, FR)</i>
+                Université Targa Ouzemmour Bejaia
+                <i className="text-lg text-neutral-400"> (Bejaia, DZ)</i>
               </h4>
               <div className="h-[1px] w-[100%] bg-neutral-500"></div>
               <br />
               <h5 className="text-neutral-400">
-                Computer Science Methods for Business Management (MIAGE)
+                Master en Génie Logiciel (GL)
               </h5>
-              <h5 className="text-neutral-400">Bachelor's Degree</h5>
+              <h5 className="text-neutral-400">Diplome en Master</h5>
               <h5 className="text-neutral-400 italic">09.17 - 09.22</h5>
             </div>
             <a
               className="italic underline text-pink-300"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.univ-grenoble-alpes.fr"
+              href="https://univ-bejaia.dz"
             >
               <img
                 className="max-h-[6rem]"
-                src="https://faculte-sciences.univ-grenoble-alpes.fr/medias/photo/logo-dlst_1676552384171-jpg"
+                src="https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/303158340_490196613112844_6583959273163454405_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=pCPRg5fl1koQ7kNvgFj-o0d&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=AegOZ0RUApGIAhSZvrmSVJy&oh=00_AYBHikqSrUmfueQxitbI8K0NZa3d2y5MzZGCEgBehwXDHQ&oe=674430DF"
               ></img>
             </a>
           </div>
